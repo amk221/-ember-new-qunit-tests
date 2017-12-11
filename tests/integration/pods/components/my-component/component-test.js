@@ -1,8 +1,10 @@
+/* eslint-disable */
+
 import { module, test } from 'qunit';
 import { setupRenderingTest } from 'ember-qunit';
 import { render } from '@ember/test-helpers';
 import hbs from 'htmlbars-inline-precompile';
-// import { Promise } from 'rsvp';
+import { Promise } from 'rsvp';
 
 module('Integration | Component | my component', function(hooks) {
   setupRenderingTest(hooks);
