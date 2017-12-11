@@ -4,6 +4,7 @@
 module.exports = function(environment) {
   let ENV = {
     modulePrefix: 'ember-new-qunit-tests',
+    podModulePrefix: 'ember-new-qunit-tests/pods',
     environment,
     rootURL: '/',
     locationType: 'auto',
